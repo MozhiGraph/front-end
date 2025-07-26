@@ -15,6 +15,10 @@
     resize: none;
     padding: 2px;
     font-size: large;
+    transition: border-color 0.5s ease;
+}
+.main > textarea:focus {
+    border-color: darkolivegreen;
 }
 .main > button {
     background-color: olive;
@@ -23,4 +27,8 @@
     cursor: pointer;
     padding: 0 10px;
     font-size: large;
+    transition: background-color 0.5s ease;
+}
+.main > button:hover {
+    background-color: darkolivegreen;
 }
