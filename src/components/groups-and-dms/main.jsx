@@ -3,7 +3,7 @@ import styles from "./main.module.css";
 import { useState, useEffect } from "react";
 import getDialogs from "../../backend-interactions/tg/get-dialogs";
 
-export default function GroupsAndDMs() {
+export default function GroupsAndDMs({currentDialog, setCurrentDialog}) {
   const [dialogs, setDialogs] = useState([]);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function GroupsAndDMs() {
   return (
     <div className={styles.main}>
       {dialogs.map(dialog => (
-        <Individual key={dialog.id} name={dialog.name} image={`http://localhost:8000/logos/${dialog.id}.jpg`} />
+        <Individual key={dialog.id} name={dialog.name} image={`http://localhost:8000/logos/${dialog.id}.jpg`} id={dialog.id} currentDialog={currentDialog} setCurrentDialog={setCurrentDialog} />
       ))}
     </div>
   );
