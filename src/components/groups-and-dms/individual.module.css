@@ -4,6 +4,8 @@
   align-items: center;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  gap: 10px;
+  padding: 10px 0;
 }
 .individual:hover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -15,18 +17,7 @@
   border-radius: 50%;
 }
 
-.individual > div {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
 .name {
   margin: 0;
   font-weight: bold;
-}
-.desc {
-  margin: 0;
-  color: gray;
-  font-size: 14px;
 }

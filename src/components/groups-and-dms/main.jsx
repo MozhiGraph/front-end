@@ -7,82 +7,66 @@ export default function GroupsAndDMs() {
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
       <Individual
         name="Jothin Kumar"
         image={pfp}
-        desc="I am developing MozhiGraph, it's a telegram client"
       />
     </div>
   );
