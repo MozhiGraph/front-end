@@ -6,7 +6,7 @@ export default function Individual({name, image}) {
   }
   return (
     <div className={styles.individual}>
-        <img src={image} alt={name} className={styles.image} />
+        <img src={image} alt={name[0]} className={styles.image} />
         <p className={styles.name}>{name}</p>
     </div>
   );
