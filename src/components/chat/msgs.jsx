@@ -7,7 +7,7 @@ export default function Messages() {
         <ChainMessages
             name="Jothin Kumar"
             image={pfp}
-            messages={['namaste', 'aapka naam kya hai?']}
+            messages={['namaste\naapka naam kya hai?']}
         />
     </div>
   );

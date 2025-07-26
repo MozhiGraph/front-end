@@ -2,6 +2,7 @@ import translate from "../../backend-interactions/translate";
 import { useState } from "react";
 
 export default function ChainMessages({name, image, messages}) {
+    messages = messages.join("\n").split("\n").filter(msg => msg.trim() !== "");
     const [translationStatus, setTranslationStatus] = useState(0);
     const handleTranslateBtnClick = async () => {
         if ([0, 2].includes(translationStatus)) {
