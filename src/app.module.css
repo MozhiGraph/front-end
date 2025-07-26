@@ -1,0 +1,6 @@
+.app {
+    display: grid;
+    grid-template-columns: 20dvw calc(80dvw - 22px);
+    gap: 2px;
+    background-color: olive;
+}

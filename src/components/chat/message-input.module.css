@@ -1,0 +1,26 @@
+.main {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: stretch;
+}
+.main > textarea {
+    flex-grow: 1;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: olive 2px solid;
+    resize: none;
+    padding: 2px;
+    font-size: large;
+}
+.main > button {
+    background-color: olive;
+    color: white;
+    border: olive 2px solid;
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: large;
+}
