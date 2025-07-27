@@ -37,8 +37,8 @@ export default function ChainMessages({name, image, messages}) {
                 </button>
             </div>
             <div style={{marginLeft: '60px'}}>
-                {[0, 1, 2].includes(translationStatus) ? messages.map((msg, index) => <p key={index} style={{margin: '5px 0'}}>{msg}</p>) :
-                 translationStatus.split("\\n").map((msg, index) => <p key={index} style={{margin: '5px 0'}}>{msg}</p>)
+                {[0, 1, 2].includes(translationStatus) ? messages.map((msg, index) => <p key={index} style={{margin: '5px 0', userSelect: 'text'}}>{msg}</p>) :
+                 translationStatus.split("\\n").map((msg, index) => <p key={index} style={{margin: '5px 0', userSelect: 'text'}}>{msg}</p>)
                 }
             </div>
         </div>
