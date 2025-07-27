@@ -6,7 +6,7 @@ export default function ChatMain({currentDialog}) {
   return (
     <div className={styles.main}>
       <Messages currentDialog={currentDialog} />
-      <MsgInput />
+      <MsgInput currentDialog={currentDialog} />
     </div>
   );
 }
