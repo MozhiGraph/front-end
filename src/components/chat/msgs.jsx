@@ -9,7 +9,7 @@ export default function Messages({currentDialog}) {
     getChats(currentDialog)
       .then(data => {
         data.reverse()
-        setMessages(data.filter(msg => msg.text && msg.text.trim() !== "" && msg.senderId !== ""))
+        setMessages(data.filter(msg => msg.text && msg.text.trim() !== ""))
       })
       .catch(error => console.error("Error fetching chats:", error));
   }, [currentDialog]);
@@ -17,7 +17,7 @@ export default function Messages({currentDialog}) {
   return (
     <div style={{ padding: '10px', overflowY: 'scroll', height: '100%' }}>
         {messages.map(msg => 
-          <ChainMessages key={msg.id} name={msg.senderId.toString()} image={`http://localhost:8000/logos/${msg.senderId}.jpg`} messages={[msg.text]} />
+          <ChainMessages key={msg.id} name={msg.senderName} image={`http://localhost:8000/logos/${msg.senderId}.jpg`} messages={[msg.text]} />
         )}
     </div>
   );
