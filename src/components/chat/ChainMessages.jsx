@@ -26,7 +26,7 @@ export default function ChainMessages({name, image, messages}) {
     return (
         <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <img src={image} alt={name[0]} style={{width: '50px', height: '50px', borderRadius: '50%', justifyContent: 'center', display: 'flex', alignItems: 'center'}} />
+                <img src={image} alt={name[0]} style={{width: '50px', height: '50px', borderRadius: '50%', justifyContent: 'center', display: 'flex', alignItems: 'center', border: 'white 1px solid'}} />
                 <p style={{ fontWeight: 'bold', fontSize: 'large' }}>{name}</p>
                 <button onClick={handleTranslateBtnClick} style={{ backgroundColor: 'black', color: 'gray', border: 'none', padding: '5px 10px', cursor: 'pointer', fontSize: '12px' }}>
                     {translationStatus === 0 ? "Translate" :
