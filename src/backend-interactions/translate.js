@@ -1,4 +1,4 @@
-export default function translate(text) {
+export default function translate(text, to="english") {
     return new Promise((resolve, reject) => {
         fetch("http://localhost:8000/translate", 
             {
@@ -7,7 +7,8 @@ export default function translate(text) {
                     'Content-Type': 'application/json'
                   },
                 body: JSON.stringify({
-                    text: text
+                    text: text,
+                    to: to
                 })
             }
         )
